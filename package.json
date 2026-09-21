@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is a backend product management project made for practice.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Alish Goroglu",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^5.2.1",
+    "multer": "^2.3.0",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
